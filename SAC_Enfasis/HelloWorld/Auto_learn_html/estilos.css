@@ -1,0 +1,6 @@
+*{
+	margin: 0;
+}
+p:nth-child(2){
+	background: #999999;
+}
