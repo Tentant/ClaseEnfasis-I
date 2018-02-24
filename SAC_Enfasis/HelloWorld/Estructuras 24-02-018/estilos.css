@@ -1,0 +1,24 @@
+h1,span {
+	border: 1px solid #C72300;
+}
+
+div.defecto {
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border: 5px double #000000;
+}
+
+#none {
+	display: none;
+}
+
+#hidden {
+	visibility: visible; 
+}
+
+#main {
+	max-width: 600px; /*Máximo zoom */
+	min-width: 300px; /*Mínimo zoom */
+	margin: auto auto; /*margin { top right bottom left } | margin {top/bottom right/left} */ 
+}
