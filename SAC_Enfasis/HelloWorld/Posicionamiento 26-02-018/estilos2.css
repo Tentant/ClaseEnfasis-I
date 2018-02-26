@@ -1,0 +1,45 @@
+header {
+	position: relative;
+	border: solid #000 2px;
+}
+
+h1 {
+	width: 500px;
+	margin: 0 auto;
+	border: 3px dotted #000000;
+}
+
+.container {
+	position: relative;
+	border: 4px double #4295DE;
+}
+
+nav {
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	/*border: 4px double #4295DE;*/
+}
+
+section {
+	/* posición static por defecto */
+	margin-left: 200px;
+	border: 4px double #4295DE;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 70px;
+	width: 
+	background-color: rgba(255,287,67,0.5);
+	border: 2px dotted #4295DE;
+	background-color: rgba(6,130,111,0.3);
+}
+
+body {
+	margin: 0 auto;
+	margin-bottom: 60px;
+	border: 4px double #4295DE;
+}

@@ -1,0 +1,50 @@
+
+h1 {
+	border: 1px solid #C72300;
+}
+
+.simple {
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border: 5px double #000000;
+	/*margin: 20px auto;*/
+	position: relative;  /*Relativo a las coordenadas dadas */
+	width: 500px;
+}
+
+.elegante {
+	border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border: 5px double #000000;
+	/*width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;*/
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 500px;
+	color: blue;
+}
+
+.absolute {
+	position: absolute; /*Relativo al elemento inmediatamente anterior posicionado */
+	top: 120px;
+	right: 0px;
+	width: 300px;
+	height: 200px;
+	background-color: rgb(66,149,222);
+}
+
+.fixed {
+	position: fixed; /*Relativo a la ventana del navegador */
+	bottom: 0px;
+	right: 0px;
+	width: 200px;
+	background-color: tomato;
+}
