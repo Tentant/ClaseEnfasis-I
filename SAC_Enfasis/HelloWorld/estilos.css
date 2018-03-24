@@ -1,33 +1,6 @@
-/* Selector universal: *{estilos} */
-
-
-body{
-	background-image: url('http://all4desktop.com/data_images/1920%20x%201080/4189113-splendid-city-view.jpg');
-	/* background-color: rgba(31, 62, 104, 0.7); */
-}
-h1{
-	color: rgba(255, 255, 255, 1);
-}
-
-p{
-	background-color: rgba(85, 156, 136, 1);
-
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 25px;
-	margin-top: 25px;
-
-	border-style: inset dotted;
-	border-top-width: 8px;
-	border-radius: 7px;
-}
-
-h3 span{
-	color: rgba(200, 255, 255, 1);
-
+canvas {
+	display: block;
+	border: solid;
+	margin:0  auto;
+	background: #D6E3FF;
 }
