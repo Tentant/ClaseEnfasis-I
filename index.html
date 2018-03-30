@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Hangman o ahorcado, hecho con HTML5, CSSS y JavaScript">
+	<meta name="author" content="Santiago Arciniegas Carmona">
+	<meta name="robots" content="follow, index">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="logica.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="icon" href="img/favicon2.ico">
+	<title>Hangman | Parcial Énfasis I</title>
+</head>
+<body>
+	<h1>HANGMAN</h1>
+
+	<p id="instrucciones">
+			En este juego, tienes que ir adivinando la palabra letra por letra, referente al tema UNIVERSIDAD. 
+			-Puedes tener máximo 7 errores.<br>
+			-Para seleccionar la letra debes dar click al botón Probar.
+	</p>
+
+	<canvas id="lienzo"></canvas> <!--Display: inline -->
+
+	<div>
+		<p>
+			<!--Elige una letra: 
+			<input type="text" id ="letra">-->
+			<input type="text" id="letra" placeholder="Escribe aquí la letra">
+			<button id="boton">Probar</button>
+		</p>
+		<p>
+			Letras falladas: 
+			<label id="fallos"></label>
+		</p>
+		<h2 id="espacios"></h2>
+	</div>
+	
+</body>
+</html>
